@@ -61,7 +61,7 @@ public class Main {
                 case 'r':
                     System.out.println("Restore last saved.");
                     try {
-                        view.viewLoad();
+                        view.viewRestore();
                     } catch (Exception e) {
                         System.out.println("Serialization error: " + e);
                     }

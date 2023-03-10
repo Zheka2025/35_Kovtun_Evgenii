@@ -14,8 +14,6 @@ package Task03;
 
 public interface Viewable {
 /** Создаёт объект, реализующий {@linkplain View}
-     * @return 
-*/
+     * @return  */
 public View getView();
-
 }
