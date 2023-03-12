@@ -1,0 +1,37 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package Task05;
+import Task03.View;
+/**
+ *
+ * @author Evgenii
+ */
+public class GenerateConsoleCommand implements ConsoleCommand {
+	/** Объект, реализующий интерфейс {@linkplain View};
+	 * обслуживает коллекцию объектов {@linkplain ex01.Item2d}
+	 */
+	private View view;
+	/** Инициализирует поле {@linkplain GenerateConsoleCommand#view}
+	 * @param view объект, реализующий интерфейс {@linkplain View}
+	 */
+	public GenerateConsoleCommand(View view) {
+		this.view = view;
+	}
+	@Override
+	public char getKey() {
+		return 'g';
+	}
+	@Override
+	public String toString() {
+		return "'g'enerate";
+	}
+	@Override
+	public void execute() {
+		System.out.println("Random generation.");
+		view.viewInit();
+		view.viewShow();
+	}
+}
+
