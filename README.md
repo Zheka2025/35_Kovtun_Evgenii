@@ -4,10 +4,18 @@
 
 Виконати розробку найпростішої консольної програми на Java, наприклад, що виводить на екран усі аргументи командного рядка, задані під час запуску та розмістити їх у локальному сховищі.
 
-![enter image description here](https://github.com/Zheka2025/35_Kovtun_Evgenii/blob/master/Image/Task01.png?raw=true)
+![enter image description here](https://github.com/Zheka2025/35_Kovtun_Evgenii/blob/master/Image/Task02.png?raw=true)
 
 # TASK02
 
-7. Визначити периметр, площу і об'єм приміщення за заданими подвійними значеннями довжини, ширини і висоти.
+**Індивідуальне завдання: Визначити периметр, площу і об'єм приміщення за заданими подвійними значеннями довжини, ширини і висоти.**
+Було розроблено клас, що серіалізується, для зберігання параметрів і результатів
+обчислень. Використовуючи агрегування, розробив клас для знаходження рішення
+задачі. 
+Також розробити клас для демонстрації в діалоговому режимі збереження та
+відновлення стану об'єкта, використовуючи серіалізацію.
 
-![enter image description here](https://github.com/Zheka2025/35_Kovtun_Evgenii/blob/master/Image/Task02.png?raw=true)
+![enter image description here](https://github.com/Zheka2025/35_Kovtun_Evgenii/blob/master/Image/Task01.png?raw=true)
+
+# TASK 03
+
