@@ -90,8 +90,9 @@ public class ViewTable extends ViewResult
 	{
 		
 		Formatter fmt = new Formatter();
-		fmt.format("%s%d%s%2$d%s", "%", 5, "s | %", "s\n");
-		System.out.printf(fmt.toString(), "x ", "y ","z ", "u ");
+System.out.format("%8s | %8s | %8s | %8s | %8s | %8s%n",
+        "Lenth", "Width", "Height", "Volume", "Area", "Perimeter");
+System.out.println(fmt);
 	}
 	
 	/** Выводит тело таблицы шириной {@linkplain ViewTable#width} символов */
@@ -99,18 +100,12 @@ public class ViewTable extends ViewResult
 	{
 		
 	 Formatter fmt = new Formatter();
-	 fmt.format("%s%d%s%2$d%s", "%", 5, "s | %", "s\n");
-	 for(Item2d item : getItems())
-		{
-		 System.out.printf(
-                    "Lenth=%d;"
-                    + " Width=%d;"
-                    + " Height=%d;"
-                    + " Volume=%d;"
-                    + " Area=%d;"
-                            + "Perimetr=%d\n", item.getLength(),item.getWidth(),item.getHeight(),item.getVolume(), item.getArea(), item.getPerimeter());
-			
-		}
+System.out.println(fmt);
+for(Item2d item : getItems()) {
+    System.out.printf("%-8d | %-8d | %-8d | %-8d | %-8d | %-8d\n",
+            item.getLength(), item.getWidth(), item.getHeight(),
+            item.getVolume(), item.getArea(), item.getPerimeter());
+}
 	}
 	
 	/** Перегрузка (совмещение, overloading) метода суперкласса;
