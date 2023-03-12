@@ -61,6 +61,7 @@ public class ViewResult implements View
     int y = calc(x);
     Item2d result = new Item2d(x, y, y);
     return result;
+        
         }
         /** Вызывает <b>init(double stepX)</b> со случайным значением аргумента<br>
 	* {@inheritDoc}

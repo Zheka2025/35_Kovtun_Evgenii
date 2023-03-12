@@ -28,7 +28,7 @@ public class Main {
     /**
      * Отображає меню.
      */
-    private void menu() {
+    public void menu() {
         Scanner scanner = new Scanner(System.in);
         String input;
         do {
