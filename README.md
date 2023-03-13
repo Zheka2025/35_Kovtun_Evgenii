@@ -26,11 +26,17 @@
 
 ![enter image description here](https://github.com/Zheka2025/35_Kovtun_Evgenii/blob/master/Image/Task03.png?raw=true)
 
-#TASK04
+# TASK04
 
 Розширив ієрархію похідними класами, які реалізують методи для подання результатів у вигляді текстової
 таблиці.
 Продемонстрував заміщення (перевизначення, overriding), поєднання (перевантаження, overloading), динамічне призначення методів
 (Пізнє зв'язування, поліморфізм, dynamic method dispatch).
 
-![enter image description here](https://github.com/Zheka2025/35_Kovtun_Evgenii/blob/master/Image/Task03.png?raw=true)
+![enter image description here](https://github.com/Zheka2025/35_Kovtun_Evgenii/blob/master/Image/Task04.png?raw=true)
+
+# TASK05
+
+Реалізував можливість скасування (undo) операцій (команд).
+Реалізував "макрокоманду"
+При розробці програми використовував шаблон Singletone.
