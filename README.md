@@ -40,3 +40,12 @@
 Реалізував можливість скасування (undo) операцій (команд).
 Реалізував "макрокоманду"
 При розробці програми використовував шаблон Singletone.
+
+![enter image description here](https://github.com/Zheka2025/35_Kovtun_Evgenii/blob/master/Image/Task05.png?raw=true)
+
+# TASK06
+
+Продемонструваd можливість паралельної обробки елементів колекції, управління чергою завдань (команд).
+Реалізував за допомогою шаблону Worker Thread.
+
+![enter image description here](https://github.com/Zheka2025/35_Kovtun_Evgenii/blob/master/Image/Task06.png?raw=true)
