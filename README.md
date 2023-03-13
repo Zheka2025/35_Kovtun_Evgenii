@@ -48,4 +48,4 @@
 Продемонструваd можливість паралельної обробки елементів колекції, управління чергою завдань (команд).
 Реалізував за допомогою шаблону Worker Thread.
 
-![enter image description here](https://github.com/Zheka2025/35_Kovtun_Evgenii/blob/master/Image/Task06.png?raw=true)
+![enter image description here](https://github.com/Zheka2025/35_Kovtun_Evgenii/blob/master/Image/Tаsk06.png?raw=true)
