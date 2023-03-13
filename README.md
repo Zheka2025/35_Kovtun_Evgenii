@@ -4,7 +4,7 @@
 
 Виконати розробку найпростішої консольної програми на Java, наприклад, що виводить на екран усі аргументи командного рядка, задані під час запуску та розмістити їх у локальному сховищі.
 
-![enter image description here](https://github.com/Zheka2025/35_Kovtun_Evgenii/blob/master/Image/Task02.png?raw=true)
+![enter image description here](https://github.com/Zheka2025/35_Kovtun_Evgenii/blob/master/Image/Task01.png?raw=true)
 
 # TASK02
 
@@ -15,7 +15,7 @@
 Також розробити клас для демонстрації в діалоговому режимі збереження та
 відновлення стану об'єкта, використовуючи серіалізацію.
 
-![enter image description here](https://github.com/Zheka2025/35_Kovtun_Evgenii/blob/master/Image/Task01.png?raw=true)
+![enter image description here](https://github.com/Zheka2025/35_Kovtun_Evgenii/blob/master/Image/Task02.png?raw=true)
 
 # TASK 03
 
@@ -24,3 +24,13 @@
 нових відображуваних класів.
 Також розширив ієрархію інтерфейсом "фабрикованих" об'єктів, що представляє набір методів для відображення результатів обчислень.
 
+![enter image description here](https://github.com/Zheka2025/35_Kovtun_Evgenii/blob/master/Image/Task03.png?raw=true)
+
+#TASK04
+
+Розширив ієрархію похідними класами, які реалізують методи для подання результатів у вигляді текстової
+таблиці.
+Продемонстрував заміщення (перевизначення, overriding), поєднання (перевантаження, overloading), динамічне призначення методів
+(Пізнє зв'язування, поліморфізм, dynamic method dispatch).
+
+![enter image description here](https://github.com/Zheka2025/35_Kovtun_Evgenii/blob/master/Image/Task03.png?raw=true)
